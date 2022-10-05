@@ -33,7 +33,7 @@ Have your own book list.
 - [nodemon](https://www.npmjs.com/package/nodemon)
 
 - [mongodb](https://www.npmjs.com/package/mongodb)
-- [mongoose] (https://www.npmjs.com/package/mongoose)
+- [mongoose](https://www.npmjs.com/package/mongoose)
 
 ### Installation
 
