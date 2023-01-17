@@ -65,6 +65,8 @@ $ npm install --save-dev @types/node
 $ npm install --save-dev @types/express
 //For .env
 $ npm install dotenv
+//For Jest(unit test)
+$ npm install --save-dev jest ts-jest @types/jest
 ```
 - Create and Update your .env => look at Pages - Folders to Update for datas
 
@@ -83,7 +85,7 @@ and in tsconfig.son :
 
 - to use tsc
 
-open a new terminal and write down : tsc -w
+open a new terminal and write down : tsc -w or npm run tsc
 
 - Database :
 $ npm i mongodb
@@ -112,18 +114,16 @@ Page 1 - Booklist : Book list via table and form
 ---
 
 
-
-
 <br/>
 
 ### Use
 ---
 
-- add a book
-- update a book
-- delete a book
-- book list
-- get the booklist via json
+- add a book 
+- update a book  
+- delete a book 
+- book list to use to add, update, delete : http://localhost:4040/books/ (TODO)
+- get the booklist via json : http://localhost:4040/books/list
 
 ==> (To complete when updates)
 
@@ -133,6 +133,11 @@ Page 1 - Booklist : Book list via table and form
 
 ---
 
+- List of the possibilities for status (read, to read, to buy, to sell, reading, drop)
+- add an other propriety : category(), list( if want to create a list)
+- authentification user : when you get to the port
+- front avec vues ? / react ? / où langage back => dans V2 ?
+- tests ()
 
 
 <br/>

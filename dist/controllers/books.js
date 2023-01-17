@@ -15,9 +15,9 @@ const db = require("../db/db");
 //?Create a new book
 const createBook = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
     // Get the data from the body
-    const title = (req.body.title);
-    const author = (req.body.author);
-    const status = (req.body.status);
+    const title = yield (req.body.title);
+    const author = yield (req.body.author);
+    const status = yield (req.body.status);
     try {
         const book = new books_1.Book({
             title,
