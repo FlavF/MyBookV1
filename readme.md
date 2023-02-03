@@ -1,4 +1,4 @@
-# MyBooks V1 (in progress)
+# MyBooks V1
 
 ## Table of Contents
 
@@ -97,9 +97,7 @@ $ npm i mongoose
 
 ---
 
-HomePage : Authentification
-
-Page 1 - Booklist : Book list via table and form
+Back end via Postman/Thunder Client
 
 
 
@@ -112,7 +110,7 @@ Page 1 - Booklist : Book list via table and form
 
 ### Database
 ---
-
+MongoDB
 
 <br/>
 
@@ -122,23 +120,16 @@ Page 1 - Booklist : Book list via table and form
 - add a book 
 - update a book  
 - delete a book 
-- book list to use to add, update, delete : http://localhost:4040/books/ (TODO)
+- book list to use to add, update, delete : http://localhost:4040/books/
 - get the booklist via json : http://localhost:4040/books/list
 
-==> (To complete when updates)
 
 <br/>
 
 ### TODO
 
 ---
-
-- List of the possibilities for status (read, to read, to buy, to sell, reading, drop)
-- add an other propriety : category(), list( if want to create a list)
-- authentification user : when you get to the port
-- front avec vues ? / react ? / où langage back => dans V2 ?
-- tests ()
-
+Go to V2
 
 <br/>
 
